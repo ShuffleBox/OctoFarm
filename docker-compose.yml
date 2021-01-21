@@ -9,7 +9,7 @@ services:
     environment:
       - MONGO=mongodb://127.0.0.1/octofarm
     volumes:
-      - /home/garret/octofarm/app/logs:/app/logs
-      - /home/garret/octofarm/scripts:/scripts
-      - /home/garret/octofarm/data:/data
-      - /home/garret/octofarm/app/images:/app/images
+      - ./app/logs:/app/logs
+      - ./scripts:/scripts
+      - ./data:/data
+      - ./app/images:/app/images
